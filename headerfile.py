@@ -26,10 +26,10 @@ def modify(key,value):
             if(key not in arr):
                 print("Error : Key does not Exist") 
             else:
-                l=[]
-                l.append(value)
-                l.append(b[1])
-                arr[key]=l
+                crr=[]
+                crr.append(value)
+                crr.append(arr[1])
+                arr[key]=crr
         else:
             print("Error Key ",key,"has expired") 
     else:
